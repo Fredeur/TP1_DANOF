@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/test1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/baguette"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="France"
+        android:textSize="25dp"
+        android:textColor="@color/colorblack"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitale : "
+        android:textSize="25dp"
+        android:textColor="@color/colorblack"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paris "
+        android:textSize="25dp"
+        android:textColor="@color/colorred"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Langue : "
+        android:textSize="25dp"
+        android:textColor="@color/colorblack"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Français "
+        android:textSize="25dp"
+        android:textColor="@color/colorred"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:text="La France est située en Europe de l'ouest. Elle est bordée par la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie et l'Espagne "
+        android:textColor="@color/colorgreen"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@color/colorAccent"
+        android:text="ANNULER"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:text="CHOISIR"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+</android.support.constraint.ConstraintLayout>
